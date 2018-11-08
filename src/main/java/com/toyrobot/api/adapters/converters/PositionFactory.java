@@ -1,4 +1,6 @@
-package com.toyrobot.api.robot;
+package com.toyrobot.api.adapters.converters;
+
+import com.toyrobot.api.core.tabletop.Position;
 
 import static java.lang.Integer.parseInt;
 

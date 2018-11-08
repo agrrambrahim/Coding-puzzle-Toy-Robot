@@ -1,6 +1,8 @@
-package com.toyrobot.api.tabletop;
+package com.toyrobot.api.core.command;
 
-import com.toyrobot.api.ResultPrinter;
+import com.toyrobot.api.adapters.presenters.ResultPrinter;
+import com.toyrobot.api.usecase.CommandResult;
+import com.toyrobot.api.core.tabletop.TableTop;
 
 public class ReportingCommand extends Command {
 

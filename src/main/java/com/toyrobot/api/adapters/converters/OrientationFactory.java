@@ -1,6 +1,8 @@
-package com.toyrobot.api.robot;
+package com.toyrobot.api.adapters.converters;
 
-import static com.toyrobot.api.robot.Orientation.*;
+import com.toyrobot.api.core.tabletop.Orientation;
+
+import static com.toyrobot.api.core.tabletop.Orientation.*;
 
 public class OrientationFactory {
     public static Orientation from(String input) {

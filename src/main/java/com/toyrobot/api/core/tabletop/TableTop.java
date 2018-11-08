@@ -1,8 +1,8 @@
-package com.toyrobot.api.tabletop;
+package com.toyrobot.api.core.tabletop;
 
 
-import com.toyrobot.api.ResultPrinter;
-import com.toyrobot.api.robot.Robot;
+import com.toyrobot.api.adapters.presenters.ResultPrinter;
+import com.toyrobot.api.core.tabletop.Robot;
 
 import java.util.Optional;
 

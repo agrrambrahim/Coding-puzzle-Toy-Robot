@@ -1,8 +1,10 @@
-package com.toyrobot.api.tabletop;
+package com.toyrobot.api.core.command;
 
-import com.toyrobot.api.robot.Orientation;
-import com.toyrobot.api.robot.Position;
-import com.toyrobot.api.robot.Robot;
+import com.toyrobot.api.core.tabletop.Orientation;
+import com.toyrobot.api.core.tabletop.Position;
+import com.toyrobot.api.core.tabletop.Robot;
+import com.toyrobot.api.usecase.CommandResult;
+import com.toyrobot.api.core.tabletop.TableTop;
 
 public class PlacingCommand extends Command {
     private Position position;

@@ -1,10 +1,9 @@
-package com.toyrobot.api.tabletop;
+package com.toyrobot.api.adapters.converters;
 
-import com.toyrobot.api.StringResultPrinter;
-import com.toyrobot.api.robot.Orientation;
-import com.toyrobot.api.robot.OrientationFactory;
-import com.toyrobot.api.robot.Position;
-import com.toyrobot.api.robot.PositionFactory;
+import com.toyrobot.api.adapters.presenters.StringResultPrinter;
+import com.toyrobot.api.core.command.*;
+import com.toyrobot.api.core.tabletop.Orientation;
+import com.toyrobot.api.core.tabletop.Position;
 
 public class CommandFactory {
 
@@ -23,7 +22,7 @@ public class CommandFactory {
                 case "REPORT":
                     return new ReportingCommand(new StringResultPrinter());
                 default:
-                    throw new IllegalArgumentException("UNSUPPORTED COMMANDE" + string);
+                    throw new IllegalArgumentException(" UNSUPPORTED COMMANDE : " + string);
             }
         }
 

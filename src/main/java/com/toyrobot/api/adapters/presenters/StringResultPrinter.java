@@ -1,4 +1,4 @@
-package com.toyrobot.api;
+package com.toyrobot.api.adapters.presenters;
 
 public class StringResultPrinter implements ResultPrinter {
 

@@ -1,11 +1,12 @@
-package com.toyrobot.api.tabletop;
+package com.toyrobot.api.usecase;
 
 public enum CommandResult {
     SUCCESS, FAILED, SUCCESSWITHOUTPUT;
 
     private String output;
 
-    public String getOutput() {
+    public String toDto() {
+
         return output;
     }
 

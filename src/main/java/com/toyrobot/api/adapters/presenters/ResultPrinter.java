@@ -1,4 +1,4 @@
-package com.toyrobot.api;
+package com.toyrobot.api.adapters.presenters;
 
 public interface ResultPrinter {
     public String printReport(String positionReport, String orientationReport);

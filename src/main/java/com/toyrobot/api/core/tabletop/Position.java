@@ -1,6 +1,6 @@
-package com.toyrobot.api.robot;
+package com.toyrobot.api.core.tabletop;
 
-import com.toyrobot.api.ResultPrinter;
+import com.toyrobot.api.adapters.presenters.ResultPrinter;
 
 public class Position {
     private int xCoordinate;
