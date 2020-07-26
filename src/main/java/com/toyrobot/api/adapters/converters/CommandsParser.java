@@ -1,6 +1,6 @@
-package com.toyrobot.api;
+package com.toyrobot.api.adapters.converters;
 
-import com.toyrobot.api.tabletop.Command;
+import com.toyrobot.api.core.command.Command;
 
 import java.util.Arrays;
 import java.util.LinkedList;
